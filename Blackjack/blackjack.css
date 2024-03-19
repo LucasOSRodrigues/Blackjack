@@ -1,0 +1,76 @@
+body {
+  padding-top: 60px;
+  text-align: center;
+  background: linear-gradient(90deg, #ff8080, 50%, #b6b6b6) fixed;
+}
+#start {
+  border-radius: 5px;
+  margin-top: 25px;
+  background-color: #686868;
+  font-size: 20px;
+  border: none;
+}
+#start:hover {
+  background-color: #878787;
+}
+
+#cartasDoJogador {
+  margin: auto;
+  margin-top: 50px;
+  display: table;
+}
+#cartasDoDealer {
+  margin: auto;
+  display: table;
+}
+.carta {
+  border-radius: 5px;
+  height: 75px;
+  width: 50px;
+  background-color: #888888;
+  border: 3px solid #535353;
+  font-size: 35px;
+  display: table-cell;
+  vertical-align: middle;
+}
+#buttons {
+  padding: 10px;
+  margin-top: 50px;
+  visibility: hidden;
+}
+.btn {
+  border-radius: 5px;
+  margin: 5px;
+  background-color: #686868;
+  font-size: 20px;
+  border: none;
+}
+.btn:hover {
+  background-color: #878787;
+}
+#soma,
+#somaDealer {
+  border-radius: 5px;
+  visibility: hidden;
+  margin: auto;
+  margin-right: 5px;
+  width: 50px;
+  height: 50px;
+  background-color: #686868;
+  border: 3px solid #535353;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: normal 30px Verdana;
+}
+.fim {
+  border-radius: 5px;
+  width: 400px;
+  margin: auto;
+  background-color: #686868;
+  font-size: 20px;
+  border: none;
+}
+.fim:hover {
+  background-color: #878787;
+}
